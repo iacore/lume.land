@@ -45,7 +45,9 @@ html
   body
     include partials/nav.pug
 
-    p= title
+    p= intro
+
+    |!{content}
 ```
 
 Note that the paths passed to `include` are relative to `_includes` directory.
